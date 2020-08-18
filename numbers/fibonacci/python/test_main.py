@@ -1,10 +1,10 @@
-from main import fib, iter_fib
+from main import rec_fib, iter_fib
 
 def test_fib():
-    assert fib(0) == 0
-    assert fib(1) == 1
-    assert fib(5) == 5
-    assert fib(8) == 21
+    assert rec_fib(0) == 0
+    assert rec_fib(1) == 1
+    assert rec_fib(5) == 5
+    assert rec_fib(8) == 21
 
 def test_iter_fib():
     assert iter_fib(0) == 0

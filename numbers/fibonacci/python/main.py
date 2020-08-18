@@ -16,7 +16,7 @@ def rec_fib(x):
     elif x == 1:
         return 1
     else:
-        return fib(x - 1) + fib(x - 2)
+        return rec_fib(x - 1) + rec_fib(x - 2)
 
 def iter_fib(x):
     """Iterative implementation of Fibonacci's algorithm."""
